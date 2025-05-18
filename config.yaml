@@ -15,10 +15,14 @@ devices:
   - /dev/i2c-10
   - /dev/i2c-11
 options:
-  fan_temp: 46
+  fan_min_temp: 25
+  fan_max_temp: 85
   delta_temp: 5
-  sleep_duration: 30
+  update_interval: 5
+  rotate_oled: false
 schema:
-  fan_temp: int
+  fan_min_temp: int
+  fan_max_temp: int
   delta_temp: int
-  sleep_duration: int
+  update_interval: int
+  rotate_oled: bool

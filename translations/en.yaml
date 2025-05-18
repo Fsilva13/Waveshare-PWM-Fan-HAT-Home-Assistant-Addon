@@ -1,10 +1,16 @@
 configuration:
-   fan_temp:
-     name: Fan Temperature Min
-     description: Temp for the fan to turn on. Restart Addon after change!
-   delta_temp:
-     name: Fan Temperature Delta
-     description: Turn off fan if temp is decreased . Restart Addon after change!
-   sleep_duration:
-     name: Update screen
-     description: Seconds to update screen. Restart Addon after change!
+  fan_min_temp:
+    name: Fan Temperature Min
+    description: Minimum temperature for the fan to turn on. Restart Addon after change!
+  fan_max_temp:
+    name: Fan Temperature Max
+    description: Maximum temperature for full fan speed. Restart Addon after change!
+  delta_temp:
+    name: Fan Temperature Delta
+    description: Minimum temperature change to update fan speed. Restart Addon after change!
+  update_interval:
+    name: Update Interval
+    description: Seconds between updates. Restart Addon after change!
+  rotate_oled:
+    name: Rotate OLED
+    description: Rotate the OLED display 90 degrees. Restart Addon after change!
