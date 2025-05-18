@@ -1,6 +1,6 @@
 name: "Waveshare PWM Fan HAT"
 description: "PWM fan and display support for the Waveshare PWM fan HAT."
-version: "0.1.0"
+version: "0.1.1"
 slug: "pwm_fan_hat"
 init: false
 host_network: true
