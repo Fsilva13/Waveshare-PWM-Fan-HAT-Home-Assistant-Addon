@@ -13,4 +13,4 @@ configuration:
     description: Seconds between updates. Restart Addon after change!
   rotate_oled:
     name: Rotate OLED
-    description: Rotate the OLED display 90 degrees. Restart Addon after change!
+    description: Rotate the OLED display 180 degrees. Restart Addon after change!

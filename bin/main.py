@@ -25,16 +25,11 @@ update_interval = config["update_interval"]
 rotate_oled = config["rotate_oled"]
 options_file.close()
 
-try:
-    while True:
-        pfh.update(
-            fan_min_temp=fan_min_temp,
-            fan_max_temp=fan_max_temp,
-            delta_temp=delta_temp,
-            update_interval=update_interval,
-            rotate_oled=rotate_oled,
-        )
-
-except KeyboardInterrupt:
-    pfh.fan_off()
-    logging.info("Fan off")
+while True:
+    pfh.update(
+        fan_min_temp=fan_min_temp,
+        fan_max_temp=fan_max_temp,
+        delta_temp=delta_temp,
+        update_interval=update_interval,
+        rotate_oled=rotate_oled,
+    )

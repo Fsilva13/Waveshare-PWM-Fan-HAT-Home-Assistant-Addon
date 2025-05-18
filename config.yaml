@@ -16,9 +16,9 @@ devices:
   - /dev/i2c-11
 options:
   fan_min_temp: 25
-  fan_max_temp: 85
+  fan_max_temp: 80
   delta_temp: 5
-  update_interval: 5
+  update_interval: 2
   rotate_oled: false
 schema:
   fan_min_temp: int
