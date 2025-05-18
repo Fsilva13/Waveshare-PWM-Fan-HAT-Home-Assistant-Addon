@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
 name: Waveshare PWM Fan HAT Home-Assistant Addon
-url: 'https://github.com/agarthetiger/Waveshare-PWM-Fan-HAT-Home-Assistant-Addon'
-maintainer: agarthetiger
+url: 'https://github.com/Fsilva13/Waveshare-PWM-Fan-HAT-Home-Assistant-Addon'
+maintainer: Fsilva13
