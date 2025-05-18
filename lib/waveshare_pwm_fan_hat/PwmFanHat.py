@@ -92,9 +92,9 @@ class PwmFanHat:
 
         # Rotate and display the image
         if rotate_oled:
-            oled.ShowImage(oled.getbuffer(image1.rotate(-180)))
-        else:
             oled.ShowImage(oled.getbuffer(image1.rotate(180)))
+        else:
+            oled.ShowImage(oled.getbuffer(image1))
 
     def update(self, fan_min_temp, fan_max_temp, delta_temp, update_interval, rotate_oled):
         """

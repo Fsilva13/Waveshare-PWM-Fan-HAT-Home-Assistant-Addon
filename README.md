@@ -7,7 +7,7 @@ Specifically for this FAN-HAT: <https://www.waveshare.com/wiki/Fan_HAT>
 
 Home Assistant (HASS) Addon to support the Waveshare PWM Controlled Fan HAT
 
-<img alt="waveshare_screen.png" src="waveshare_screen.png" width="300"/>
+<img alt="waveshare_screen.png" src="waveshare_screen.png" alt="Waveshare Fan HAT" width="300"/>
 
 ## Example Configuration
 
